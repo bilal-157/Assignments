@@ -1,0 +1,272 @@
+01)
+
+value =  int(input(("enter any number")))
+
+if value==0:
+    print("the number is zero")
+elif value>0:
+    print("the number is positive")
+elif value<0:
+    print("the numbe is negative")
+    # TODO: write code...
+
+02)program 
+
+value  = input("enter your fucking age")
+value = int(value)
+
+if value>0 and value<18:
+    print("you are miner now ")
+elif value >= 18 and value<=30:
+    print("you are adult now")
+elif vlaue>31:
+    print("now you are senior citizen ")
+
+03)
+
+year = int(input("enter the year"))
+
+if year%4==0:
+    if year%100!=0:
+        print("it is a leap year")
+    else:
+        if year%400==0:
+            print("it is a leap year")
+else:
+    print("not a leap year")
+            # TODO: write code...
+        
+   
+04)program 
+
+value  = input("enter the value")
+value = int(value)
+if value==0:
+    print("the given value is zero")
+elif value%2==0:
+    print("the given vlaue is even")
+elif value%2==1:
+    print("the given value is odd")
+
+
+05)program 
+
+value = input("enter your marks : ")
+value = int(value)
+
+if value>=80:
+    print("you got A Grade")
+elif value>=60:
+    print("you got B Grade")
+elif value>=50:
+    print("you got C Grade")
+elif value>=40:
+    print("you got D Grade")
+else:
+    print("you got F Grade")
+    
+06)program
+
+value01 = input("enter the first value")
+value02 = input("enter the second value")
+value01 = int(value01)
+value02 = int(value02)
+
+if value01>value02:
+    print("the first value is greater")
+elif value02>value01:
+    print("the second value is greater")
+else:
+    print("Both values are equals")
+
+07)program 
+
+value01 = input("enter the first vlaue")
+value02 = input("enter the second vlaue")
+value03 = input("enter the third vlaue")
+value01 = int(value01)
+value02 = int(value02)
+value03 = int(value03)
+
+if value01>value02 and value01>value03:
+    print("the first value is greatest")
+elif value02>value01 and value02>value03:
+    print("the second value is greatest")
+elif value03>value01 and value03>value02:
+    print("the third value is greatest")
+elif value01==value02==value03:
+    print("all values are equal")
+
+08)program 
+
+value = input("enter string")
+value02 = value[::-1]
+
+if value==value02:
+    print("the string is palindrome")
+else:
+    print("the given string is not palindrome")
+    # TODO: write code...
+
+09)program
+
+side01 = input("enter first side of triangle ")
+side02 = input("enter second side of triangle ")
+side03 = input("enter third side of triangle ")
+
+side01 = int(side01)
+side02 = int(side02)
+side03 = int(side03)
+
+if side01 + side02 > side03 and side02 + side03 > side01 and side03 + side01 > side02:
+    print("the given three side proves that the triangle is valid")
+else:
+    print("the triangle is not valid")
+    # TODO: write code...
+
+10)program 
+
+value = input("enter the charecter")
+
+if value=="a" or value=="e" or value=="i" or value=="o" or value=="u":
+    print("the charecter is vowel")
+else:
+    print("the charecter is consonent")
+    # TODO: write code...
+
+11)program
+
+value = input("enter the number")
+value = int(value)
+
+if value%2==0 and value%3==o:
+    print("the given number is multiple of 3 and 5")
+else:
+    print("the number is not multiple of 3 and 5")
+    
+12)program
+
+value = input("enter the temprature in Celcius")
+
+value =  int(value)
+
+if value<=0:
+    print("the temprature is freezing")
+
+elif value<=25:
+    print("the temprature is moderate")
+
+elif value>25:
+    print("the temprature is hot")
+
+13)program
+
+value01 = input("enter the first value")
+value01 = int(value01)
+value02 = input("enter the second value")
+value02 = int(value02)
+simble = input("enter the operation")
+
+if simble=="+":
+    print(value01 + value02)
+elif simble=="-":
+    print(value01 - value02)
+elif simble=="/":
+    print(value01 / value02)
+elif simble=="*":
+    print(value01 * value02)
+
+14)
+
+year = int(input("enter the year"))
+
+if year%4==0:
+    if year%100!=0:
+        print("it is not a century year")
+    else:
+        if year%400==0:
+            print("it is not a century year")
+else:
+    print("it is a century year")
+            # TODO: write code...
+        
+
+15)program
+
+
+value = input("enter the number between 0 to 100 :  ")
+
+value =  int(value)
+
+if value>0 and value<=100:
+    print("the given number is in range")
+else:
+    print("the given number is not in range")
+
+16)program
+
+side01 = input("enter the first side of triangle")
+side02 = input("enter the second side of triangle")
+side03 = input("enter the thirdside of triangle")
+
+side01 = int(side01)
+side02 = int(side02)
+side03 = int(side03)
+
+if side01==side02==side03:
+    print("the triangle is equilateral")
+elif side01==side02 or side01==side03 or side02==side03:
+    print("the triangle is isoscles")
+else:
+    print("the triangle is scalene")
+
+17)program
+
+value = input("enter the number")
+
+value =  int(value)
+
+if value%2==0 and value%3==0 :
+    print("value is divisible by 2 and 3")
+elif value%2==0:
+    print("the value is divisible by only 2 ")
+elif value%3==0:
+    print("the given value is divisible by only 3")
+
+18)program 
+
+marks = input("enter your marks")
+marks = input(marks)
+
+if marks>50:
+    print("you are pass !")
+else:
+    print("you are fail !")
+
+19)program 
+
+s = input("enter the string")
+
+if s.isupper():
+    print("the string is in uppercase")
+elif s.islower():
+    print("the string is in lowercase")
+else:
+    print("the string is in both uppercase and in lowercase")
+
+program no 20)
+
+value = int(input("enter the number"))
+
+def func(num):
+    if num <=1:
+        return False
+    else:
+        for x in range(2,(num//2)+1):
+            if num%x==0:
+                return False
+        return True
+if func(value):
+    print("number is prime")
+else:
+    print("not prime")

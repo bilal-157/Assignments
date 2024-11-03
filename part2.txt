@@ -1,0 +1,153 @@
+01)program
+
+for x in range(1,21,1):
+    print(x)
+
+02)program
+
+x = 2
+while x<=50:
+    print(x)
+    x = x+2
+
+03)program
+
+sum = 0
+for x in range(1,101,1):
+    sum = sum+x
+print(sum)
+    # TODO: write code...
+04)program
+
+value = input("enter the numbe for table")
+
+value = int(value)
+
+for x in range(1,11,1):
+    print(value * x)
+
+05)program
+
+for x in range(1,101,2):
+    print(x)
+
+06)program
+
+value =  input("enter the string")
+
+for x in value:
+    print(x)
+    # TODO: write code...
+
+07)program
+
+value = input("enter the number")
+value = int(value)
+
+ans = 1
+if value==0 or value==1:
+    print(1)
+else:
+    while value>1:
+      ans = ans * value
+      value = value-1
+    print(ans)
+
+08)program
+
+for x in range(10,0,-1):
+    print(x)
+
+09)program
+
+sum = 0
+for x in range(1,11,1):
+    sum=sum+x
+    
+print(sum)
+
+10)program
+
+value = input("enter the value")
+print(len(value))
+
+11)program
+
+value = input("enter the number")
+print(value[::-1])
+
+program no 12
+
+def func(num):
+    if num<=1:
+        return False
+    for i in range(2,(num//2)+1):
+        if num%i==0:
+            return False
+    return True
+    
+for x in range(2,51):
+    if func(x):
+        print(f"{x} is prime")
+
+
+program no 13
+
+rows = 5
+for i in range(0,rows):
+    print(" " * (rows - i - 1), end="")
+    print("* " * (i + 1))
+
+
+program no 14
+
+value = 0
+guess = 5
+while value!=guess:
+    value  =  int(input("enter the number !"))
+   
+
+program no 15
+
+value = int(input('enter the value'))
+
+even = 0
+odd = 0
+for x in range(2,value+1,2):
+  even = even + x
+print("even sum to the given number is = " ,even)
+for i in range(1,value+1,2):
+   odd = odd + i
+print("odd sum to the given number is = ",odd)
+
+program no 16
+
+value = int(input("enter the number"))
+ans = 0
+while value!=0:
+    x=value%10
+    value = value//10
+    ans = ans + x
+print(ans)
+
+program no 17
+
+value = 0 
+correct = 78
+
+while value!=correct:
+    value = int(input("enter the correct number"))
+print("yeah you got it !")
+
+program no 18 
+
+value1 = int(input("enter the highest number from where you want to start reverse printing"))
+value2 = int(input("enter the highest number from where you want to end reverse printing"))
+
+for x in range(value1,value2-1,-1):
+    print(x)
+
+program no 19
+
+for x in range(1,11):
+   print(x*x)
